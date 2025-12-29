@@ -2,6 +2,18 @@
 # wm independent hotkeys
 #
 
+# volume
+super + v 
+        pavucontrol
+
+
+# wifi
+super + b 
+        kitty nmtui
+
+
+
+
 # terminal emulator
 super + Return
 	kitty
@@ -16,7 +28,7 @@ super + e
 
 # program launcher
 super + d
-	xfce4-appfinder
+	        dmenu_run -l 15
 
 # make sxhkd reload its configuration files:
 super + Escape
